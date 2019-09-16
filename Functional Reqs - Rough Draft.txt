@@ -1,0 +1,12 @@
+9/16/2019
+
+Adding a grade
+Deleting a grade
+Modifying a grade
+Performing a what-if grade audit
+Adding a current class
+Adding a completed class
+Deleting a completed class
+Modifying a completed class
+Tracking degree progress
+Performing what-if GPA audit
