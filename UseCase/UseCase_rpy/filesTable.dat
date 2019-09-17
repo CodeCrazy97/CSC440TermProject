@@ -1,0 +1,12 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
+
+- filesTable = { IRPYRawContainer 
+	- size = 5;
+	- value = "Projects.rpl" ""
+	"UseCase.rpy" ""
+	"UseCase_rpy\\Default.sbs" "Default"
+	"UseCase_rpy\\DefaultComponent.cmp" "DefaultComponent"
+	"UseCase_rpy\\package_0.sbs" "package_0"
+	
+}
+
