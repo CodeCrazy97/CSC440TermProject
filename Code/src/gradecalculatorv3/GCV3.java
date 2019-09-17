@@ -4,7 +4,7 @@ December, 2018
 Ethan Vaughan
  */
 package gradecalculatorv3;
-
+ 
 import java.awt.Component;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
