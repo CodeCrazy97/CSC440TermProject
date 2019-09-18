@@ -1,12 +1,17 @@
 9/16/2019
 
-Adding a grade
-Deleting a grade
-Modifying a grade
-Performing a what-if grade audit
-Adding a current class
-Adding a completed class
-Deleting a completed class
-Modifying a completed class
-Tracking degree progress
-Performing what-if GPA audit
+✓ R1 Adding a grade
+✓ R3 Deleting a grade
+✓ R5 Modifying a grade
+✓ R2 Performing a what-if grade audit
+
+✓ R6 Delete a current class
+✓ R7 Adding a current class
+
+
+✓ R4 Adding a completed class
+✓ R10 Deleting a completed class
+✓ R11 Modifying a completed class
+
+✓ R8 Tracking degree progress
+✓ R9 Performing what-if GPA audit
