@@ -1,0 +1,841 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID 9334a1f4-af43-494d-8d74-aeb3b1c2ff0d;
+	- _myState = 8192;
+	- _name = "Default";
+	- _objectCreation = "5010163295320191918861950";
+	- _umlDependencyID = "2359";
+	- _lastID = 19;
+	- weakCGTime = 9.29.2019::23:53:18;
+	- strongCGTime = 9.17.2019::16:50:16;
+	- _defaultComposite = GUID 51bd35de-f7f3-4bd2-aa54-f6ac9fb9f425;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 2;
+		- value = 
+		{ IClass 
+			- _id = GUID 51bd35de-f7f3-4bd2-aa54-f6ac9fb9f425;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "5010165295320191918859950";
+			- _umlDependencyID = "2470";
+			- weakCGTime = 9.18.2019::15:43:23;
+			- strongCGTime = 9.17.2019::16:50:16;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IPart 
+					- _id = GUID 2f6bca4c-3485-4d01-95e1-2014266c921e;
+					- _myState = 10240;
+					- _name = "object_0";
+					- _objectCreation = "5010167295320191918857950";
+					- _umlDependencyID = "2433";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID e5b806c9-8c20-421b-b533-5651e301b0f5;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "";
+					}
+					- _implicitClass = { IClass 
+						- _id = GUID e5b806c9-8c20-421b-b533-5651e301b0f5;
+						- _myState = 10240;
+						- _name = "object_0";
+						- _objectCreation = "5010169295320191918855950";
+						- _umlDependencyID = "2433";
+						- _theMainDiagram = { IHandle 
+							- _m2Class = "IDiagram";
+							- _filename = "";
+							- _subsystem = "";
+							- _class = "";
+							- _name = "Model1";
+							- _id = GUID ff30b271-ee6b-4952-9f05-52844b71667e;
+						}
+						- weakCGTime = 9.17.2019::16:50:16;
+						- strongCGTime = 9.17.2019::16:50:16;
+						- _multiplicity = "";
+						- _itsStateChart = { IHandle 
+							- _m2Class = "";
+						}
+						- _classModifier = Unspecified;
+					}
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 58c573b0-1635-46d4-93c4-0e5262b5d7de;
+			- _myState = 10240;
+			- _name = "class_1";
+			- _objectCreation = "5010171295320191918853950";
+			- _umlDependencyID = "2328";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID ff30b271-ee6b-4952-9f05-52844b71667e;
+			}
+			- weakCGTime = 9.17.2019::16:52:11;
+			- strongCGTime = 9.17.2019::16:52:11;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- UseCases = { IRPYRawContainer 
+		- size = 12;
+		- value = 
+		{ IUseCase 
+			- _id = GUID abb855e8-fa45-4a10-9e94-1363570ee7d7;
+			- _myState = 8192;
+			- _name = "Modify a grade";
+			- _objectCreation = "5010173295320191918851950";
+			- _umlDependencyID = "2878";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID e843a8de-ec8d-4776-b452-73cb4d3cf4a5;
+					- _myState = 10240;
+					- _name = "itsEKU Computer Science Student";
+					- _objectCreation = "5010175295320191918849950";
+					- _umlDependencyID = "4512";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 664c3dff-f927-4b5d-8f09-c47f6008f92b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID d883db0b-7712-4bca-973b-c6b6c05323fe;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 0cb689bf-fff5-4c95-9a81-e7f14a4143ec;
+			- _myState = 8192;
+			- _name = "Perform what-if grade audit";
+			- _objectCreation = "5010177295320191918847950";
+			- _umlDependencyID = "4128";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 6a67814f-2963-4747-8e0e-bcd9756fd43c;
+					- _myState = 10240;
+					- _name = "itsEKU Computer Science Student";
+					- _objectCreation = "5010179295320191918845950";
+					- _umlDependencyID = "4512";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 664c3dff-f927-4b5d-8f09-c47f6008f92b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID c6cdb392-28fb-4eac-a4fd-e74704a715e5;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID b10acafe-7ee4-4ac7-ba78-216bd816b67f;
+			- _myState = 8192;
+			- _name = "Adding current class";
+			- _objectCreation = "5010181295320191918843950";
+			- _umlDependencyID = "3538";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID fd3bd896-d164-4a38-998e-536a2d611aa2;
+					- _myState = 10240;
+					- _name = "itsEKU Computer Science Student";
+					- _objectCreation = "5010183295320191918841950";
+					- _umlDependencyID = "4503";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 664c3dff-f927-4b5d-8f09-c47f6008f92b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID d241d274-6b1e-4a13-9f47-f2efae6e5a80;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID c1395f3b-7885-4d04-9fd1-72db6cff1086;
+			- _myState = 8192;
+			- _name = "Delete a grade";
+			- _objectCreation = "5010185295320191918839950";
+			- _umlDependencyID = "2866";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID b70dcf1c-e717-45b4-91de-99ab1ae2574e;
+					- _myState = 10240;
+					- _name = "itsEKU Computer Science Student";
+					- _objectCreation = "5010187295320191918837950";
+					- _umlDependencyID = "4512";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 664c3dff-f927-4b5d-8f09-c47f6008f92b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 82c866bb-10db-43fa-8585-dd067e07b0aa;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 0880faa1-9f00-4b97-9774-98cacf6783f8;
+			- _myState = 8192;
+			- _name = "Add a grade";
+			- _objectCreation = "5010189295320191918835950";
+			- _umlDependencyID = "2536";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 5a8967b3-aed8-48c2-a0a9-c6d01963338c;
+					- _myState = 10240;
+					- _name = "itsEKU Computer Science Student";
+					- _objectCreation = "5010191295320191918833950";
+					- _umlDependencyID = "4503";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 664c3dff-f927-4b5d-8f09-c47f6008f92b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 0699e78c-02d5-48d2-8720-9bcd80de930b;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID b2276c39-a3c3-4485-88e6-3d5047d1f758;
+			- _myState = 8192;
+			- _name = "Adding completed class";
+			- _objectCreation = "5010193295320191918831950";
+			- _umlDependencyID = "3724";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 3e7246eb-8446-4579-acdd-dccee21be5c9;
+					- _myState = 10240;
+					- _name = "itsEKU Computer Science Student";
+					- _objectCreation = "5010195295320191918829950";
+					- _umlDependencyID = "4512";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 664c3dff-f927-4b5d-8f09-c47f6008f92b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 6c52d35e-3f21-4ddc-8325-116ebc4d386d;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID b9fcb057-461c-469d-96a8-7d1e04d65020;
+			- _myState = 8192;
+			- _name = "Deleting completed class";
+			- _objectCreation = "5010197295320191918827950";
+			- _umlDependencyID = "3962";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 8f319838-ba4f-45d1-ad5f-b664551fcc3b;
+					- _myState = 10240;
+					- _name = "itsEKU Computer Science Student";
+					- _objectCreation = "5010199295320191918825950";
+					- _umlDependencyID = "4512";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 664c3dff-f927-4b5d-8f09-c47f6008f92b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID bb4122ff-c8cb-4591-aba0-cc54e6dc3ce6;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 5b50cec3-2c6c-474a-ae2b-28f16a67748a;
+			- _myState = 8192;
+			- _name = "Modifying completed class";
+			- _objectCreation = "5010201295320191918823950";
+			- _umlDependencyID = "4066";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID e9409fd4-6d8d-4948-97ed-e29deb8d7a72;
+					- _myState = 10240;
+					- _name = "itsEKU Computer Science Student";
+					- _objectCreation = "5010203295320191918821950";
+					- _umlDependencyID = "4494";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 664c3dff-f927-4b5d-8f09-c47f6008f92b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 6d1a9d71-c2ca-4297-ab7b-b56d7b36369f;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID cef42eae-ebe1-4f37-92e7-2cc9198ed389;
+			- _myState = 8192;
+			- _name = "Track degree progress";
+			- _objectCreation = "5010205295320191918819950";
+			- _umlDependencyID = "3656";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 683c5d5b-286b-4f71-a8f7-3fcc34f657a3;
+					- _myState = 10240;
+					- _name = "itsEKU Computer Science Student";
+					- _objectCreation = "5010207295320191918817950";
+					- _umlDependencyID = "4503";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 664c3dff-f927-4b5d-8f09-c47f6008f92b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 4029bc01-05f0-48ca-9317-75cd7456d2dc;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID cef0b89a-fb02-48cb-98a9-1a97c0e7d0b1;
+			- _myState = 8192;
+			- _name = "Perform what-if GPA audit";
+			- _objectCreation = "5010209295320191918815950";
+			- _umlDependencyID = "3820";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 4a050bad-c3c9-48bb-90b8-b0795c53320b;
+					- _myState = 10240;
+					- _name = "itsEKU Computer Science Student";
+					- _objectCreation = "5010211295320191918813950";
+					- _umlDependencyID = "4494";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 664c3dff-f927-4b5d-8f09-c47f6008f92b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b2faead2-f99a-4376-975d-3712c2932b10;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 1a24db1e-a2e3-45c2-be35-be5fd298eecc;
+			- _myState = 8192;
+			- _name = "Deleting current class";
+			- _objectCreation = "5010213295320191918811950";
+			- _umlDependencyID = "3758";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 129265fd-70ab-4dc9-aed3-6ddd5ebdeccd;
+					- _myState = 10240;
+					- _name = "itsEKU Computer Science Student";
+					- _objectCreation = "5010215295320191918809950";
+					- _umlDependencyID = "4503";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 664c3dff-f927-4b5d-8f09-c47f6008f92b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 162cbc2a-4b39-4ce2-ab86-a878caa37e59;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID e1908461-8c2b-415f-bec9-6a0614d0e88d;
+			- _myState = 8192;
+			- _name = "View current classes";
+			- _objectCreation = "5010217295320191918807950";
+			- _umlDependencyID = "3582";
+			- weakCGTime = 12.31.1969::19:0:0;
+			- strongCGTime = 12.31.1969::19:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID b5065616-83f4-4d69-9080-0212657818f4;
+					- _myState = 10240;
+					- _name = "itsEKU Computer Science Student";
+					- _objectCreation = "5010219295320191918805950";
+					- _umlDependencyID = "4503";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 664c3dff-f927-4b5d-8f09-c47f6008f92b;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 4cab6e14-cd7d-4e18-b151-f43b1132e130;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- UseCaseStereoTypes = { IRPYRawContainer 
+				- size = 0;
+			}
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+	}
+	- Actors = { IRPYRawContainer 
+		- size = 1;
+		- value = 
+		{ IActor 
+			- _id = GUID 664c3dff-f927-4b5d-8f09-c47f6008f92b;
+			- _myState = 8192;
+			- _name = "EKU Computer Science Student";
+			- _objectCreation = "5010221295320191918803950";
+			- _umlDependencyID = "4158";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Model1";
+				- _id = GUID ff30b271-ee6b-4952-9f05-52844b71667e;
+			}
+			- weakCGTime = 9.29.2019::23:53:48;
+			- strongCGTime = 9.17.2019::16:50:8;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 12;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 0699e78c-02d5-48d2-8720-9bcd80de930b;
+					- _myState = 10240;
+					- _name = "itsAdd a grade";
+					- _objectCreation = "5010223295320191918801950";
+					- _umlDependencyID = "2854";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 0880faa1-9f00-4b97-9774-98cacf6783f8;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 5a8967b3-aed8-48c2-a0a9-c6d01963338c;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 82c866bb-10db-43fa-8585-dd067e07b0aa;
+					- _myState = 10240;
+					- _name = "itsDelete a grade";
+					- _objectCreation = "5010225295320191918799950";
+					- _umlDependencyID = "3202";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID c1395f3b-7885-4d04-9fd1-72db6cff1086;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b70dcf1c-e717-45b4-91de-99ab1ae2574e;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID d883db0b-7712-4bca-973b-c6b6c05323fe;
+					- _myState = 10240;
+					- _name = "itsModify a grade";
+					- _objectCreation = "5010227295320191918797950";
+					- _umlDependencyID = "3223";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID abb855e8-fa45-4a10-9e94-1363570ee7d7;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID e843a8de-ec8d-4776-b452-73cb4d3cf4a5;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID c6cdb392-28fb-4eac-a4fd-e74704a715e5;
+					- _myState = 10240;
+					- _name = "itsPerform what-if grade audit";
+					- _objectCreation = "5010229295320191918795950";
+					- _umlDependencyID = "4464";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 0cb689bf-fff5-4c95-9a81-e7f14a4143ec;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 6a67814f-2963-4747-8e0e-bcd9756fd43c;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID d241d274-6b1e-4a13-9f47-f2efae6e5a80;
+					- _myState = 10240;
+					- _name = "itsAdding current class";
+					- _objectCreation = "5010231295320191918793950";
+					- _umlDependencyID = "3874";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID b10acafe-7ee4-4ac7-ba78-216bd816b67f;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID fd3bd896-d164-4a38-998e-536a2d611aa2;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 6c52d35e-3f21-4ddc-8325-116ebc4d386d;
+					- _myState = 10240;
+					- _name = "itsAdding completed class";
+					- _objectCreation = "5010233295320191918791950";
+					- _umlDependencyID = "4060";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID b2276c39-a3c3-4485-88e6-3d5047d1f758;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 3e7246eb-8446-4579-acdd-dccee21be5c9;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID bb4122ff-c8cb-4591-aba0-cc54e6dc3ce6;
+					- _myState = 10240;
+					- _name = "itsDeleting completed class";
+					- _objectCreation = "5010235295320191918789950";
+					- _umlDependencyID = "4298";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID b9fcb057-461c-469d-96a8-7d1e04d65020;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 8f319838-ba4f-45d1-ad5f-b664551fcc3b;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID b2faead2-f99a-4376-975d-3712c2932b10;
+					- _myState = 10240;
+					- _name = "itsPerform what-if GPA audit";
+					- _objectCreation = "5010237295320191918787950";
+					- _umlDependencyID = "4165";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID cef0b89a-fb02-48cb-98a9-1a97c0e7d0b1;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 4a050bad-c3c9-48bb-90b8-b0795c53320b;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 4029bc01-05f0-48ca-9317-75cd7456d2dc;
+					- _myState = 10240;
+					- _name = "itsTrack degree progress";
+					- _objectCreation = "5010239295320191918785950";
+					- _umlDependencyID = "4001";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID cef42eae-ebe1-4f37-92e7-2cc9198ed389;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 683c5d5b-286b-4f71-a8f7-3fcc34f657a3;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 6d1a9d71-c2ca-4297-ab7b-b56d7b36369f;
+					- _myState = 10240;
+					- _name = "itsModifying completed class";
+					- _objectCreation = "5010241295320191918783950";
+					- _umlDependencyID = "4411";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 5b50cec3-2c6c-474a-ae2b-28f16a67748a;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID e9409fd4-6d8d-4948-97ed-e29deb8d7a72;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 162cbc2a-4b39-4ce2-ab86-a878caa37e59;
+					- _myState = 10240;
+					- _name = "itsDeleting current class";
+					- _objectCreation = "5010243295320191918781950";
+					- _umlDependencyID = "4103";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 1a24db1e-a2e3-45c2-be35-be5fd298eecc;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 129265fd-70ab-4dc9-aed3-6ddd5ebdeccd;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 4cab6e14-cd7d-4e18-b151-f43b1132e130;
+					- _myState = 10240;
+					- _name = "itsView current classes";
+					- _objectCreation = "5010245295320191918779950";
+					- _umlDependencyID = "3927";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID e1908461-8c2b-415f-bec9-6a0614d0e88d;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b5065616-83f4-4d69-9080-0212657818f4;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 9.17.2019::16:50:16;
+}
+
