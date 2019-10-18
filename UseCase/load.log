@@ -1,125 +1,125 @@
-09, 29, 2019 (19:52:15): Opening rpy file D:\Rhapsody\Share\Properties\PredefinedTypes.sbs
-09, 29, 2019 (19:52:15): 
- Started loading D:\Rhapsody\Share\Properties\PredefinedTypes.sbs on Sunday, September 29, 2019 (19:52:15).-
+10, 18, 2019 (13:34:10): Opening rpy file D:\Rhapsody\Share\Properties\PredefinedTypes.sbs
+10, 18, 2019 (13:34:10): 
+ Started loading D:\Rhapsody\Share\Properties\PredefinedTypes.sbs on Friday, October 18, 2019 (13:34:10).-
 
-09, 29, 2019 (19:52:15): 
-
-Starting inUnit resolution phase
-
-
-09, 29, 2019 (19:52:15): 
-
-Finished inUnit resolution phase
-
-
-09, 29, 2019 (19:52:15): 
- Finished loading D:\Rhapsody\Share\Properties\PredefinedTypes.sbs on Sunday, September 29, 2019 (19:52:15).-
-
-09, 29, 2019 (19:52:15): Opening rpy file D:\Rhapsody\Share\Properties\PredefinedTypesC++.sbs
-09, 29, 2019 (19:52:15): 
- Started loading D:\Rhapsody\Share\Properties\PredefinedTypesC++.sbs on Sunday, September 29, 2019 (19:52:15).-
-
-09, 29, 2019 (19:52:15): 
+10, 18, 2019 (13:34:10): 
 
 Starting inUnit resolution phase
 
 
-09, 29, 2019 (19:52:15): 
+10, 18, 2019 (13:34:10): 
 
 Finished inUnit resolution phase
 
 
-09, 29, 2019 (19:52:15): 
- Finished loading D:\Rhapsody\Share\Properties\PredefinedTypesC++.sbs on Sunday, September 29, 2019 (19:52:15).-
+10, 18, 2019 (13:34:10): 
+ Finished loading D:\Rhapsody\Share\Properties\PredefinedTypes.sbs on Friday, October 18, 2019 (13:34:10).-
 
-09, 29, 2019 (19:52:15): Opening rpy file C:\Users\Matthew\Desktop\UseCase\UseCase.rpy
-09, 29, 2019 (19:52:15): 
- Started loading C:\Users\Matthew\Desktop\UseCase\UseCase.rpy on Sunday, September 29, 2019 (19:52:15).-
+10, 18, 2019 (13:34:10): Opening rpy file D:\Rhapsody\Share\Properties\PredefinedTypesC++.sbs
+10, 18, 2019 (13:34:10): 
+ Started loading D:\Rhapsody\Share\Properties\PredefinedTypesC++.sbs on Friday, October 18, 2019 (13:34:10).-
 
-09, 29, 2019 (19:52:15): Opening rpy file C:\Users\Matthew\Desktop\UseCase\UseCase_rpy\Default.sbs
-09, 29, 2019 (19:52:15): 
- Started loading C:\Users\Matthew\Desktop\UseCase\UseCase_rpy\Default.sbs on Sunday, September 29, 2019 (19:52:15).-
-
-09, 29, 2019 (19:52:15): 
+10, 18, 2019 (13:34:10): 
 
 Starting inUnit resolution phase
 
 
-09, 29, 2019 (19:52:15): 
+10, 18, 2019 (13:34:10): 
 
 Finished inUnit resolution phase
 
 
-09, 29, 2019 (19:52:15): 
- Finished loading C:\Users\Matthew\Desktop\UseCase\UseCase_rpy\Default.sbs on Sunday, September 29, 2019 (19:52:15).-
+10, 18, 2019 (13:34:10): 
+ Finished loading D:\Rhapsody\Share\Properties\PredefinedTypesC++.sbs on Friday, October 18, 2019 (13:34:10).-
 
-09, 29, 2019 (19:52:15): Opening rpy file C:\Users\Matthew\Desktop\UseCase\UseCase_rpy\package_0.sbs
-09, 29, 2019 (19:52:15): 
- Started loading C:\Users\Matthew\Desktop\UseCase\UseCase_rpy\package_0.sbs on Sunday, September 29, 2019 (19:52:15).-
+10, 18, 2019 (13:34:10): Opening rpy file C:\Users\Matthew\Desktop\CSC440TermProject-master\CSC440TermProject-master\UseCase\UseCase.rpy
+10, 18, 2019 (13:34:10): 
+ Started loading C:\Users\Matthew\Desktop\CSC440TermProject-master\CSC440TermProject-master\UseCase\UseCase.rpy on Friday, October 18, 2019 (13:34:10).-
 
-09, 29, 2019 (19:52:15): 
+10, 18, 2019 (13:34:10): Opening rpy file C:\Users\Matthew\Desktop\CSC440TermProject-master\CSC440TermProject-master\UseCase\UseCase_rpy\Default.sbs
+10, 18, 2019 (13:34:10): 
+ Started loading C:\Users\Matthew\Desktop\CSC440TermProject-master\CSC440TermProject-master\UseCase\UseCase_rpy\Default.sbs on Friday, October 18, 2019 (13:34:10).-
+
+10, 18, 2019 (13:34:10): 
 
 Starting inUnit resolution phase
 
 
-09, 29, 2019 (19:52:15): 
+10, 18, 2019 (13:34:10): 
 
 Finished inUnit resolution phase
 
 
-09, 29, 2019 (19:52:15): 
- Finished loading C:\Users\Matthew\Desktop\UseCase\UseCase_rpy\package_0.sbs on Sunday, September 29, 2019 (19:52:15).-
+10, 18, 2019 (13:34:10): 
+ Finished loading C:\Users\Matthew\Desktop\CSC440TermProject-master\CSC440TermProject-master\UseCase\UseCase_rpy\Default.sbs on Friday, October 18, 2019 (13:34:10).-
 
-09, 29, 2019 (19:52:15): Opening rpy file C:\Users\Matthew\Desktop\UseCase\UseCase_rpy\DefaultComponent.cmp
-09, 29, 2019 (19:52:15): 
- Started loading C:\Users\Matthew\Desktop\UseCase\UseCase_rpy\DefaultComponent.cmp on Sunday, September 29, 2019 (19:52:15).-
+10, 18, 2019 (13:34:10): Opening rpy file C:\Users\Matthew\Desktop\CSC440TermProject-master\CSC440TermProject-master\UseCase\UseCase_rpy\package_0.sbs
+10, 18, 2019 (13:34:10): 
+ Started loading C:\Users\Matthew\Desktop\CSC440TermProject-master\CSC440TermProject-master\UseCase\UseCase_rpy\package_0.sbs on Friday, October 18, 2019 (13:34:10).-
 
-09, 29, 2019 (19:52:15): 
+10, 18, 2019 (13:34:10): 
 
 Starting inUnit resolution phase
 
 
-09, 29, 2019 (19:52:15): 
+10, 18, 2019 (13:34:10): 
 
 Finished inUnit resolution phase
 
 
-09, 29, 2019 (19:52:15): 
- Finished loading C:\Users\Matthew\Desktop\UseCase\UseCase_rpy\DefaultComponent.cmp on Sunday, September 29, 2019 (19:52:15).-
+10, 18, 2019 (13:34:10): 
+ Finished loading C:\Users\Matthew\Desktop\CSC440TermProject-master\CSC440TermProject-master\UseCase\UseCase_rpy\package_0.sbs on Friday, October 18, 2019 (13:34:10).-
 
-09, 29, 2019 (19:52:15): 
+10, 18, 2019 (13:34:10): Opening rpy file C:\Users\Matthew\Desktop\CSC440TermProject-master\CSC440TermProject-master\UseCase\UseCase_rpy\DefaultComponent.cmp
+10, 18, 2019 (13:34:10): 
+ Started loading C:\Users\Matthew\Desktop\CSC440TermProject-master\CSC440TermProject-master\UseCase\UseCase_rpy\DefaultComponent.cmp on Friday, October 18, 2019 (13:34:10).-
+
+10, 18, 2019 (13:34:10): 
 
 Starting inUnit resolution phase
 
 
-09, 29, 2019 (19:52:15): 
+10, 18, 2019 (13:34:10): 
 
 Finished inUnit resolution phase
 
 
-09, 29, 2019 (19:52:15): 
+10, 18, 2019 (13:34:10): 
+ Finished loading C:\Users\Matthew\Desktop\CSC440TermProject-master\CSC440TermProject-master\UseCase\UseCase_rpy\DefaultComponent.cmp on Friday, October 18, 2019 (13:34:10).-
+
+10, 18, 2019 (13:34:10): 
 
 Starting inUnit resolution phase
 
 
-09, 29, 2019 (19:52:15): 
+10, 18, 2019 (13:34:10): 
 
 Finished inUnit resolution phase
 
 
-09, 29, 2019 (19:52:15): 
+10, 18, 2019 (13:34:10): 
 
 Starting inUnit resolution phase
 
 
-09, 29, 2019 (19:52:15): 
+10, 18, 2019 (13:34:10): 
 
 Finished inUnit resolution phase
 
 
-09, 29, 2019 (19:52:15): 
- Finished loading C:\Users\Matthew\Desktop\UseCase\UseCase.rpy on Sunday, September 29, 2019 (19:52:15).-
+10, 18, 2019 (13:34:10): 
 
-09, 29, 2019 (19:52:15): Starting checks of EventsBaseID conflicts
-09, 29, 2019 (19:52:15): Finished checks of EventsBaseID conflicts
-09, 29, 2019 (19:52:15): End Log
+Starting inUnit resolution phase
+
+
+10, 18, 2019 (13:34:10): 
+
+Finished inUnit resolution phase
+
+
+10, 18, 2019 (13:34:10): 
+ Finished loading C:\Users\Matthew\Desktop\CSC440TermProject-master\CSC440TermProject-master\UseCase\UseCase.rpy on Friday, October 18, 2019 (13:34:10).-
+
+10, 18, 2019 (13:34:10): Starting checks of EventsBaseID conflicts
+10, 18, 2019 (13:34:10): Finished checks of EventsBaseID conflicts
+10, 18, 2019 (13:34:10): End Log

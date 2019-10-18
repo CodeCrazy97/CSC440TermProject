@@ -3,8 +3,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 	- _id = GUID db4f207d-63e2-4a7d-9e20-1d8639222e42;
 	- _myState = 8192;
 	- _name = "UseCase";
-	- _objectCreation = "5010161295320191918863950";
-	- _umlDependencyID = "2331";
+	- _objectCreation = "55779183820191330253105";
+	- _umlDependencyID = "2228";
 	- _lastID = 2;
 	- _UserColors = { IRPYRawContainer 
 		- size = 16;
@@ -261,8 +261,8 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 				}
 			}
 			- _name = "Model1";
-			- _objectCreation = "5010247295320191918777950";
-			- _umlDependencyID = "2205";
+			- _objectCreation = "55781183820191330251105";
+			- _umlDependencyID = "2084";
 			- _lastModifiedTime = "9.17.2019::16:52:48";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 48b9adb2-f35e-454e-8d5c-82be49d59a21;
@@ -547,9 +547,9 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 				}
 			}
 			- _name = "MainUseCaseDiagram";
-			- _objectCreation = "5010249295320191918775950";
-			- _umlDependencyID = "3422";
-			- _lastModifiedTime = "9.29.2019::23:53:48";
+			- _objectCreation = "55783183820191330249105";
+			- _umlDependencyID = "3310";
+			- _lastModifiedTime = "10.18.2019::17:36:44";
 			- _graphicChart = { CGIClassChart 
 				- _id = GUID 8689e1f5-1fb2-4da4-872d-e698d20fa280;
 				- m_type = 0;
@@ -729,12 +729,12 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
 						- _class = "";
-						- _name = "Modify a grade";
+						- _name = "Modify an Assignment Grade";
 						- _id = GUID abb855e8-fa45-4a10-9e94-1363570ee7d7;
 					}
 					- m_pParent = GUID 80d80fd1-ad88-4f91-adf1-0b0ef73ecc9f;
 					- m_name = { CGIText 
-						- m_str = "Modify a grade";
+						- m_str = "Modify an Assignment Grade";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -747,7 +747,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.446853 0 0 0.0471426 357.616 221.632 ;
+					- m_transform = 0.446853 0 0 0.0650243 381.156 249.432 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -792,7 +792,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.446853 0 0 0.0704672 361.577 285.069 ;
+					- m_transform = 0.446853 0 0 0.0704672 385.117 330.542 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -837,7 +837,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.446853 0 0 0.0765497 365.475 367.042 ;
+					- m_transform = 0.446853 0 0 0.0765497 385.092 416.012 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -864,12 +864,12 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
 						- _class = "";
-						- _name = "Delete a grade";
+						- _name = "Delete an Assignment Grade";
 						- _id = GUID c1395f3b-7885-4d04-9fd1-72db6cff1086;
 					}
 					- m_pParent = GUID 80d80fd1-ad88-4f91-adf1-0b0ef73ecc9f;
 					- m_name = { CGIText 
-						- m_str = "Delete a grade";
+						- m_str = "Delete an Assignment Grade";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -882,7 +882,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.446853 0 0 0.047064 349.782 160.042 ;
+					- m_transform = 0.446853 0 0 0.0683871 377.245 168.397 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -909,12 +909,12 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
 						- _class = "";
-						- _name = "Add a grade";
+						- _name = "Add an Assignment Grade";
 						- _id = GUID 0880faa1-9f00-4b97-9774-98cacf6783f8;
 					}
 					- m_pParent = GUID 80d80fd1-ad88-4f91-adf1-0b0ef73ecc9f;
 					- m_name = { CGIText 
-						- m_str = "Add a grade";
+						- m_str = "Add an Assignment Grade";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -927,7 +927,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.446853 0 0 0.0466552 357.654 96.8129 ;
+					- m_transform = 0.446853 0 0 0.064984 369.424 94.6209 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -979,7 +979,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
 						- _class = "EKU Computer Science Student";
-						- _name = "itsAdd a grade";
+						- _name = "itsAdd an Assignment Grade";
 						- _id = GUID 0699e78c-02d5-48d2-8720-9bcd80de930b;
 					}
 					- m_pParent = ;
@@ -1025,7 +1025,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
-						- _class = "Add a grade";
+						- _class = "Add an Assignment Grade";
 						- _name = "itsEKU Computer Science Student";
 						- _id = GUID 5a8967b3-aed8-48c2-a0a9-c6d01963338c;
 					}
@@ -1153,7 +1153,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
 						- _class = "EKU Computer Science Student";
-						- _name = "itsDelete a grade";
+						- _name = "itsDelete an Assignment Grade";
 						- _id = GUID 82c866bb-10db-43fa-8585-dd067e07b0aa;
 					}
 					- m_pParent = ;
@@ -1199,7 +1199,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
-						- _class = "Delete a grade";
+						- _class = "Delete an Assignment Grade";
 						- _name = "itsEKU Computer Science Student";
 						- _id = GUID b70dcf1c-e717-45b4-91de-99ab1ae2574e;
 					}
@@ -1327,7 +1327,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
 						- _class = "EKU Computer Science Student";
-						- _name = "itsModify a grade";
+						- _name = "itsModify an Assignment Grade";
 						- _id = GUID d883db0b-7712-4bca-973b-c6b6c05323fe;
 					}
 					- m_pParent = ;
@@ -1373,7 +1373,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
-						- _class = "Modify a grade";
+						- _class = "Modify an Assignment Grade";
 						- _name = "itsEKU Computer Science Student";
 						- _id = GUID e843a8de-ec8d-4776-b452-73cb4d3cf4a5;
 					}
@@ -1842,7 +1842,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.446853 0 0 0.10575 373.285 548.74 ;
+					- m_transform = 0.446853 0 0 0.10575 377.208 594.213 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -1887,7 +1887,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.446853 0 0 0.105036 365.425 672.882 ;
+					- m_transform = 0.446853 0 0 0.105036 369.348 720.103 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -2280,7 +2280,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.446853 0 0 0.111173 365.425 797.216 ;
+					- m_transform = 0.446853 0 0 0.111173 369.348 844.438 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -2325,7 +2325,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.446853 0 0 0.0770979 365.425 929.846 ;
+					- m_transform = 0.446853 0 0 0.0721768 357.578 971.858 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -2370,7 +2370,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.446853 0 0 0.0853464 369.324 1026.16 ;
+					- m_transform = 0.446853 0 0 0.0722162 345.784 1061.21 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -2937,7 +2937,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.44828 0 0 0.070047 377.535 464.943 ;
+					- m_transform = 0.44828 0 0 0.070047 377.535 510.415 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -3138,12 +3138,12 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
 						- _class = "";
-						- _name = "View current classes";
+						- _name = "View Assignment Grades";
 						- _id = GUID e1908461-8c2b-415f-bec9-6a0614d0e88d;
 					}
 					- m_pParent = GUID 80d80fd1-ad88-4f91-adf1-0b0ef73ecc9f;
 					- m_name = { CGIText 
-						- m_str = "View current classes";
+						- m_str = "View Assignment Grades";
 						- m_style = "Arial" 10 0 0 0 1 ;
 						- m_color = { IColor 
 							- m_fgColor = 0;
@@ -3156,7 +3156,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- m_nOrientationCtrlPt = 5;
 					}
 					- m_drawBehavior = 2056;
-					- m_transform = 0.44828 0 0 0.086549 361.842 1135.15 ;
+					- m_transform = 0.44828 0 0 0.071852 353.995 1152.62 ;
 					- m_bIsPreferencesInitialized = 1;
 					- m_AdditionalLabel = { CGIText 
 						- m_str = "";
@@ -3208,7 +3208,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
 						- _class = "EKU Computer Science Student";
-						- _name = "itsView current classes";
+						- _name = "itsView Assignment Grades";
 						- _id = GUID 4cab6e14-cd7d-4e18-b151-f43b1132e130;
 					}
 					- m_pParent = ;
@@ -3254,7 +3254,7 @@ I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
 						- _m2Class = "IAssociationEnd";
 						- _filename = "Default.sbs";
 						- _subsystem = "Default";
-						- _class = "View current classes";
+						- _class = "View Assignment Grades";
 						- _name = "itsEKU Computer Science Student";
 						- _id = GUID b5065616-83f4-4d69-9080-0212657818f4;
 					}
