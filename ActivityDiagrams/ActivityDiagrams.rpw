@@ -1,0 +1,361 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler * 1159120
+{ CGEMdiWorkspace 
+	- stubList = { IRPYRawContainer 
+		- size = 0;
+	}
+	- myViewsWithID = { IRPYRawContainer 
+		- size = 12;
+		- value = 
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -27;
+				- m_nLeft = 40;
+				- m_nTop = 26;
+				- m_nRight = 222;
+				- m_nBottom = 416;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Default";
+				- _id = GUID 0a76a19b-8b6e-47bf-8f47-37a6c96d9bab;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 153 338 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 11;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -27;
+				- m_nLeft = 160;
+				- m_nTop = 104;
+				- m_nRight = 342;
+				- m_nBottom = 494;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "TopLevel";
+				- _name = "ActivityDiagram";
+				- _id = GUID b2bd4b92-7310-47b8-a81f-b659a520be6e;
+			}
+			- _UpLeft = 825 440 ;
+			- _DownRight = 978 758 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 4;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -27;
+				- m_nLeft = 80;
+				- m_nTop = 52;
+				- m_nRight = 262;
+				- m_nBottom = 442;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "TopLevel";
+				- _name = "ActivityDiagram";
+				- _id = GUID 8d196842-78b7-4c81-b43b-4141f9519741;
+			}
+			- _UpLeft = 152 202 ;
+			- _DownRight = 313 537 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 6;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -27;
+				- m_nLeft = 240;
+				- m_nTop = 156;
+				- m_nRight = 422;
+				- m_nBottom = 546;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "TopLevel";
+				- _name = "ActivityDiagram";
+				- _id = GUID c0c62d79-fd9e-4e5d-8134-357e64450f4b;
+			}
+			- _UpLeft = 0 0 ;
+			- _DownRight = 161 335 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 10;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -27;
+				- m_nLeft = 200;
+				- m_nTop = 130;
+				- m_nRight = 382;
+				- m_nBottom = 520;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "TopLevel";
+				- _name = "ActivityDiagram";
+				- _id = GUID 0401645d-ee24-493c-95f8-31927bd73c70;
+			}
+			- _UpLeft = 588 200 ;
+			- _DownRight = 741 518 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 3;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -27;
+				- m_nLeft = 120;
+				- m_nTop = 78;
+				- m_nRight = 302;
+				- m_nBottom = 468;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "TopLevel";
+				- _name = "ActivityDiagram";
+				- _id = GUID 339c679f-aefa-4e5e-842a-2382737b734d;
+			}
+			- _UpLeft = 298 320 ;
+			- _DownRight = 451 638 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 5;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -27;
+				- m_nLeft = 280;
+				- m_nTop = 182;
+				- m_nRight = 462;
+				- m_nBottom = 572;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "TopLevel";
+				- _name = "ActivityDiagram";
+				- _id = GUID 33a87da4-8f11-4c28-87a8-73a34e1778d8;
+			}
+			- _UpLeft = 600 327 ;
+			- _DownRight = 753 645 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 9;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -27;
+				- m_nLeft = 240;
+				- m_nTop = 156;
+				- m_nRight = 422;
+				- m_nBottom = 546;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "TopLevel";
+				- _name = "ActivityDiagram";
+				- _id = GUID 067e7db1-2fe9-40a8-9d35-25bd78a6d1b6;
+			}
+			- _UpLeft = 729 310 ;
+			- _DownRight = 882 628 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 2;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -27;
+				- m_nLeft = 0;
+				- m_nTop = 0;
+				- m_nRight = 182;
+				- m_nBottom = 390;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "TopLevel";
+				- _name = "ActivityDiagram";
+				- _id = GUID 6418354e-0822-4b65-bca6-2edc44b54183;
+			}
+			- _UpLeft = 607 485 ;
+			- _DownRight = 760 803 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 8;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 2;
+				- m_showCmd = 3;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -27;
+				- m_nLeft = 0;
+				- m_nTop = 0;
+				- m_nRight = 182;
+				- m_nBottom = 390;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "TopLevel";
+				- _name = "ActivityDiagram";
+				- _id = GUID fc1a48d4-dda0-45f6-915a-a82f7df6b548;
+			}
+			- _UpLeft = 444 243 ;
+			- _DownRight = 1840 1087 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 0;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -27;
+				- m_nLeft = 40;
+				- m_nTop = 26;
+				- m_nRight = 222;
+				- m_nBottom = 416;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "TopLevel";
+				- _name = "ActivityDiagram";
+				- _id = GUID 7940e95c-c4e7-46f9-8691-c6ea642a12f1;
+			}
+			- _UpLeft = 696 538 ;
+			- _DownRight = 857 873 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 7;
+		}
+		{ CGEMdiDiagramParams 
+			- _placement = { CCommon_WINDOWPLACEMENT 
+				- m_nLength = 44;
+				- m_nFlags = 0;
+				- m_showCmd = 1;
+				- m_ptMinPositionX = -1;
+				- m_ptMinPositionY = -1;
+				- m_ptMaxPositionX = -4;
+				- m_ptMaxPositionY = -27;
+				- m_nLeft = 280;
+				- m_nTop = 182;
+				- m_nRight = 462;
+				- m_nBottom = 572;
+			}
+			- _wasOpenedOnCloseProject = 1;
+			- _theDiagram = { IHandle 
+				- _m2Class = "IActivityDiagram";
+				- _filename = "Default.sbs";
+				- _subsystem = "Default";
+				- _class = "TopLevel";
+				- _name = "ActivityDiagram";
+				- _id = GUID b82010d2-a596-4c9b-a9f3-1e2dd19acb59;
+			}
+			- _UpLeft = 878 450 ;
+			- _DownRight = 1031 768 ;
+			- _instanceName = "";
+			- m_nDiagramIndex = 1;
+		}
+	}
+	- _fullName = "C:\\Users\\Matthew\\My Documents\\Rhapsody\\ActivityDiagrams\\ActivityDiagrams";
+	- m_SearchScopeList = { IRPYRawContainer 
+		- size = 0;
+	}
+
+	- m_favoritesTree = {
+		count=1;
+		{ - favoritesItem
+			generation = 0;
+			name = Favorites;
+			idOrFolder = folder;
+		}
+	}
+
+}
+
